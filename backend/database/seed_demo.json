@@ -1,0 +1,36 @@
+{
+  "user": {
+    "id": 1,
+    "full_name": "Aziz Karimov",
+    "phone": "+998 90 123-45-67",
+    "member_since": "2025-11-02",
+    "avatar_initials": "AK"
+  },
+  "cards": [
+    { "id": 1, "bank": "Uzcard", "last4": "4521", "balance_minor": 380000000 },
+    { "id": 2, "bank": "Humo",   "last4": "7788", "balance_minor": 150000000 }
+  ],
+  "cash_balance_minor": 90000000,
+  "monthly_income_minor": 950000000,
+  "days_until_next_income": 6,
+  "liabilities": [
+    { "source_type": "payment_schedule", "source_id": 101, "category": "utility",  "label": "Elektr energiyasi",      "amount_minor": 18500000, "due_in_days": 0,  "is_mandatory": true,  "lender_name": null },
+    { "source_type": "loan_installment", "source_id": 201, "category": "loan",     "label": "Ipoteka to'lovi",        "amount_minor": 320000000,"due_in_days": 1,  "is_mandatory": true,  "lender_name": "Ipoteka Bank" },
+    { "source_type": "payment_schedule", "source_id": 102, "category": "internet", "label": "Internet (UZTelecom)",   "amount_minor": 12000000, "due_in_days": 4,  "is_mandatory": true,  "lender_name": null },
+    { "source_type": "loan_installment", "source_id": 202, "category": "loan",     "label": "Avtomobil krediti",      "amount_minor": 145000000,"due_in_days": 9,  "is_mandatory": true,  "lender_name": "Kapitalbank" },
+    { "source_type": "payment_schedule", "source_id": 103, "category": "subscription","label": "Mobil aloqa",         "amount_minor": 5500000,  "due_in_days": 12, "is_mandatory": false, "lender_name": null },
+    { "source_type": "payment_schedule", "source_id": 104, "category": "tax",      "label": "Mulk solig'i",           "amount_minor": 21000000, "due_in_days": 25, "is_mandatory": true,  "lender_name": null }
+  ],
+  "loans": [
+    { "id": 201, "lender_name": "Ipoteka Bank", "principal_minor": 28000000000, "remaining_minor": 21400000000, "monthly_payment_minor": 320000000, "interest_rate": 18.0, "term_months": 120, "months_paid": 26, "status": "active" },
+    { "id": 202, "lender_name": "Kapitalbank",  "principal_minor": 4200000000,  "remaining_minor": 1740000000,  "monthly_payment_minor": 145000000, "interest_rate": 22.0, "term_months": 36,  "months_paid": 17, "status": "active" }
+  ],
+  "income_fingerprints": [
+    { "confidence_score": 88.0 },
+    { "confidence_score": 62.0 }
+  ],
+  "manual_income_patterns": [],
+  "payment_discipline": { "on_time": 21, "late": 2, "overdue_now": 0, "total": 23 },
+  "risk_history_stress_scores": [22.4, 19.8, 31.2, 18.0, 24.6, 20.1, 17.9, 26.3, 21.0, 19.4],
+  "risk_history_crisis_flags": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+}
